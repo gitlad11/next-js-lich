@@ -39,7 +39,7 @@ function Content(props){
 		<div style={styles.container} >
 			<Grid container spacing={2}>
 				<Grid item xs={6}>
-					<MyCard url={ImageUrl} title="Нет доступного товара" />
+					<MyCard removeGood={removeGood} url={ImageUrl} title="Нет доступного товара" />
 				</Grid>
 			</Grid>
 		</div>

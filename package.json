@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+     "install-client": "npm install",
+    "heroku-build": "npm run install-client && npm run build",
     "lint": "next lint"
   },
   "dependencies": {

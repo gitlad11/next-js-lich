@@ -9,7 +9,7 @@ import Image from "next/image";
 
 
 export default function MyCard(props) {
-
+  const remove = props.removeGood
 	const title = props.title
 	const url = props.url
 
